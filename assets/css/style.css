@@ -1,0 +1,283 @@
+body{
+	background-color: black
+}
+
+div {
+	text-align: left;
+}
+
+img{
+	width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+li{
+	padding: 0px 70px 0px 0px !important;
+	cursor: pointer;
+}
+
+.banner.style1.fullscreen {
+	min-height: 92vh;
+}
+
+.ovrrideMain {
+	position: static;
+	background-color: white !important;
+}
+
+#mainFootLogo {
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.stickyBar {
+	position: -webkit-sticky;
+	position: sticky;
+	bottom: 0;
+	background-color: black;
+	padding: 20px;
+	font-size: 15px;
+}	
+
+.footerList{
+	color: white;
+	margin: 0px !important;
+	font-weight: 500;
+	
+}
+
+.cardContainer{
+	width: 400px;
+	height: 340px;
+	background-color: white
+	-webkit-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.10);
+	box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.10);
+	border-radius: 15px;
+	margin: auto;
+}
+
+#betaLabel{
+	font-weight: 700;
+	color: #7E7E7E;
+	float: left;
+	padding: 2px 15px 2px 15px;
+	font-size: 16px;
+}
+
+#toptopcontainer{
+	position: relative;
+	width: 95%;
+	top: 14px;
+	height: 40px;
+}
+
+#DownloadButton{
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	background-color: #003464;
+	-webkit-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.20);
+	box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.20);
+	border-radius: 5px;
+	float: right;
+	padding: 2px 15px 2px 15px;
+	font-size: 12px;
+	cursor: pointer
+}
+
+#nameLabel{
+	font-size: 80px;
+	font-weight: 800;
+	float: left;
+	position: relative;
+	padding: 0px 0px 0px 15px;
+	width: 95%;
+	margin: 0px;
+	top: 5px;
+	line-height: 100%;
+}
+
+#cardDesc{
+	font-size: 17px;
+	font-weight: 600;
+	position: relative;
+	width: 95%;
+	padding: 0px 15px 0px 15px;
+	top: 6px;
+}
+
+
+#middleContainer {
+	position: relative;
+	padding: 0px 15px 0px 15px;
+	width: 40%;
+	top: 8px;
+	float: left;
+}
+
+#emailMe{
+	font-size: 14px;
+	font-weight: 700;
+	color: #003464;
+	cursor: pointer;
+	float: left;
+}
+
+#location{
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+	float: left;
+}
+
+#middleContainer-2{
+	position: relative;
+	padding: 0px 20px 0px 15px;
+	width: 40%;
+	top: 20px;
+	float: right;
+}
+
+#contactUs{
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	background-color: #363813;
+	-webkit-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.20);
+	box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.20);
+	border-radius: 5px;
+	float: right;
+	padding: 2px 15px 2px 15px;
+	font-size: 12px;
+	cursor: pointer
+}
+
+#linkContainer{
+	position: relative;
+	padding: 0px 0px 0px 15px;
+	float: left;
+	width: 95%;
+	top: 20px;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+	justify-content: flex-start;
+	
+}
+
+.icon1Container{
+	float: left;
+	overflow: all;
+	text-align:center;
+	width: 25%;
+	cursor: pointer;
+}
+
+#icon1{
+	background-image: url('../../images/customIcons/1.png');
+	background-size: contain;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	border-radius: 10px;
+	position: relative;
+	background-repeat: no-repeat;
+	text-align:center;
+	width: 70px;
+	height: 70px;
+	vertical-align: top;
+	display:block;
+	overflow: hidden;
+	border: none;
+	margin: auto;
+}
+
+#icon2{
+	background-image: url('../../images/customIcons/2.png');
+	background-size: contain;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	border-radius: 10px;
+	position: relative;
+	background-repeat: no-repeat;
+	text-align:center;
+	width: 70px;
+	height: 70px;
+	vertical-align: top;
+	display:block;
+	overflow: hidden;
+	margin: auto;
+}
+
+#icon3{
+	background-image: url('../../images/customIcons/3.png');
+	background-size: contain;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	border-radius: 10px;
+	position: relative;
+	background-repeat: no-repeat;
+	text-align:center;
+	width: 70px;
+	height: 70px;
+	vertical-align: top;
+	display:block;
+	overflow: hidden;
+	margin: auto;
+}
+
+#icon4{
+	background-image: url('../../images/customIcons/4.png');
+	background-size: contain;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.10);
+	border-radius: 10px;
+	position: relative;
+	background-repeat: no-repeat;
+	text-align:center;
+	width: 70px;
+	height: 70px;
+	vertical-align: top;
+	display:block;
+	overflow: hidden;
+	margin: auto;
+}
+
+.iconLabel{
+	position: relative;
+	font-weight: 600;
+	color: black;
+	text-align: center;
+	font-size: 11px;
+	top: 5px;
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
+.qCard{
+	font-weight: 700;
+	font-size: 11px;
+}
+
+.aCard{
+	color: #001038;
+	font-size: 12px;
+}
+
+
+
+
+
+
