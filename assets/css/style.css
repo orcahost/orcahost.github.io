@@ -26,6 +26,23 @@ li{
 	background-color: white !important;
 }
 
+.overrideOrca1 {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+@media screen and (orientation: portrait) {
+
+	.overrideOrca1 {
+		padding: 0px !important;
+		margin: 0px !important;
+		position: relative;
+		top: 100px;
+	}
+
+}
+
+
 #mainFootLogo {
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
