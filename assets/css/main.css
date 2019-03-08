@@ -99,11 +99,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #000000;
+		background-color: #000000;/*
 		background-image: url("images/overlay.png"), -moz-linear-gradient(315deg, #000000 0%, #414141 74%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(315deg, #000000 0%, #414141 74%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(315deg, #000000 0%, #414141 74%);
-		background-image: url("images/overlay.png"), linear-gradient(315deg, #000000 0%, #414141 74%);
+		background-image: url("images/overlay.png"), linear-gradient(315deg, #000000 0%, #414141 74%);*/
+		background-image: url("../../images/bg.jpg")
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -125,10 +126,8 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
-		font-weight: 300;
-		line-height: 1.65;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 1.1;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -170,7 +169,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -3060,12 +3059,12 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 0.8em;
 			letter-spacing: -0.025em;
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 3em 5em 1em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3560,7 +3559,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 2em 2em 2em;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3743,7 +3742,7 @@ input, select, textarea {
 
 	#wrapper {
 		width: 64em;
-		max-width: calc(100% - 4em);
+		max-width: 70%;
 		margin: 0 auto;
 	}
 
