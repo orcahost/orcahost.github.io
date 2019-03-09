@@ -9,3 +9,17 @@
 .headerStyle{
 	padding: 12em 1em 25em 1em !important
 }
+
+section{
+	background-color: white;
+	margin: 0px 0px 20px 0px;
+	border-radius: 15px;
+}
+
+.footerSectionOverride{
+	background-color: transparent;
+}
+
+.pagesOverride{
+	background-color: white;
+}
