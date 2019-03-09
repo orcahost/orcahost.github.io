@@ -2384,12 +2384,12 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
 			width: 100%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
+				margin: auto;
 			}
 
 /* List */
@@ -2601,7 +2601,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 0.65em 0 0;
+			padding: 0em 1em 1em 0em;
 		}
 
 			ul.icons li:last-child {
@@ -3668,7 +3668,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 2em 0em 0em 0em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
 	}
@@ -3676,11 +3676,11 @@ input, select, textarea {
 		#footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
+
 		}
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
