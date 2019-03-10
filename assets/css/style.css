@@ -23,3 +23,28 @@ section{
 .pagesOverride{
 	background-color: white;
 }
+
+.iFrameHeight{
+	height: 500px;
+	width: 100%;
+}
+
+.imageOverrideContainer{
+	float: right;
+	right: 0px;
+}
+
+.imageOverride{
+	width: 200px;
+
+}
+
+#divPOverride{
+	width: 80%;
+}
+
+.imgDesc{
+	text-align: center;
+	font-size: 0.6em;
+	position: inherit;
+}
